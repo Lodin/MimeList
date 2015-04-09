@@ -1,0 +1,23 @@
+{
+    "name": "lodin/mime-list",
+    "description": "File extension-mime type matcher",
+    "type": "library",
+    "license": "BSL-1.0",
+    "keywords": ["file", "mime-type"],
+    "homepage": "https://github.com/Lodin/MimeList",
+    "authors": [
+        {
+            "name": "Vlad Rindevich",
+            "email": "rindevich.vs@gmail.com",
+            "homepage": "https://github.com/Lodin"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/Lodin/MimeList/issues",
+        "source": "https://github.com/Lodin/MimeList"
+    },
+    "require": {
+        "php":">=5.3.0"
+    },
+    "minimum-stability": "dev"
+}
