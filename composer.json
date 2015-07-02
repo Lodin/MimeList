@@ -21,7 +21,7 @@
     },
     "autoload": {
         "psr-0": {
-            "SimpleFile": "src/"
+            "MimeList": "src/"
         }
     },
     "minimum-stability": "dev"
