@@ -25,7 +25,7 @@ class MimeList
      */
     public $cache;
 
-    public function __construct($cache = static::USE_CACHE, $dataFile = "mimetypes.php")
+    public function __construct($cache = self::USE_CACHE, $dataFile = "mimetypes.php")
     {
         $this->cache = $cache;
         $this->dataFile = $dataFile;
@@ -54,7 +54,7 @@ class MimeList
     {
         $result = array();
 
-        foreach (explode("\n", file_get_contents(static::APACHE_MIMETYPES_URL)) as $line) {
+        foreach (explode("\n", file_get_contents(self::APACHE_MIMETYPES_URL)) as $line) {
             if (
                 isset($line[0])
                 && $line[0] !== '#'
